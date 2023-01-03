@@ -98,17 +98,19 @@
     </script>
 </head>
 <body onload="initialize()">
-    <h1>Codebreaker</h1>
-    <h2 id="clock">Remaining guesses: 7</h2>
-    <div id="board">
-        <h3 id="playerGuess">---</h3>
-        <div id="buttons">
-            <button id="one" onclick="guessOne()">1</button>
-            <button id="two" onclick="guessTwo()">2</button>
-            <button id="three" onclick="guessThree()">3</button>
+    <nav>
+        <h1>Codebreaker</h1>
+        <h2 id="clock">Remaining guesses: 7</h2>
+        <div id="board">
+            <h3 id="playerGuess">---</h3>
+            <div id="buttons">
+                <button id="one" onclick="guessOne()">1</button>
+                <button id="two" onclick="guessTwo()">2</button>
+                <button id="three" onclick="guessThree()">3</button>
+            </div>
+            <button id="resetGuess" onclick="resetAll()">reset</button>
         </div>
-        <button id="resetGuess" onclick="resetAll()">reset</button>
-    </div>
-    <p id="log"></p>
+        <p id="log"></p>
+    </nav>
 </body>
 </html>
